@@ -3,7 +3,6 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from datetime import datetime
 
-# PostgreSQL connection - UPDATE THESE CREDENTIALS
 SQLALCHEMY_DATABASE_URL = "postgresql://postgres:password@localhost:5432/review_db"
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
@@ -20,5 +19,5 @@ class Review(Base):
     product_review = Column(String)
     created_at = Column(DateTime, default=datetime.utcnow)
 
-# Create tables
+
 Base.metadata.create_all(bind=engine)

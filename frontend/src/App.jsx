@@ -50,7 +50,7 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <h1>📱 Product Reviews</h1>
+        <h1>Product Reviews</h1>
         <p>Reviews submitted via WhatsApp</p>
         <button onClick={fetchReviews} className="refresh-btn">
           Refresh Reviews
@@ -72,7 +72,7 @@ function App() {
                 </div>
                 <p className="review-text">"{review.product_review}"</p>
                 <div className="review-footer">
-                  <span className="user-info">👤 {review.user_name}</span>
+                  <span className="user-info">{review.user_name}</span>
                   <span className="contact">{review.contact_number}</span>
                 </div>
               </div>
