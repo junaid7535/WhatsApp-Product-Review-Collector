@@ -1,11 +1,11 @@
-### WhatsApp Product Reviews App
+## WhatsApp Product Reviews App
 
-# A full-stack application that allows users to submit product reviews via WhatsApp. The backend processes WhatsApp messages, stores reviews in PostgreSQL, and exposes a REST API consumed by a React frontend.
+### A full-stack application that allows users to submit product reviews via WhatsApp. The backend processes WhatsApp messages, stores reviews in PostgreSQL, and exposes a REST API consumed by a React frontend.
 
 
-### 🛠 Tech Stack
+## 🛠 Tech Stack
 
-## Backend
+### Backend
 
 **FastAPI** - Python web framework
 
@@ -17,7 +17,8 @@
 
 **Uvicorn** - ASGI server
 
-## Frontend
+### Frontend
+
 **React** - Frontend framework
 
 **Vite** - Build tool
@@ -26,54 +27,51 @@
 
 
 
-### Installation & Setup
+## Installation & Setup
 
 
-## Clone the Repository
+### Clone the Repository
 
-# git clone <your-repo-url>
-# cd whatsapp-reviews-app
+ git clone <your-repo-url>
+ cd whatsapp-reviews-app
 
-## Backend Setup
+### Backend Setup
 
-# Navigate to backend directory:
+ Navigate to backend directory:
 
-# cd backend
-# Create and activate virtual environment:
+ cd backend
+ Create and activate virtual environment:
 
 **Create virtual environment**
-# python3 -m venv venv
+ python3 -m venv venv
 
 **Activate virtual environment**
-**On macOS/Linux:**
 
-# source venv/bin/activate
-**On Windows:**
-**venv\Scripts\activate**
-
-# Install Python dependencies:
-
-# pip install fastapi uvicorn sqlalchemy psycopg2-binary python-multipart twilio
-# Set up PostgreSQL Database:
-# Start PostgreSQL service:
-
-## Start the Backend Server:
-
-# uvicorn main:app --reload --host 0.0.0.0 --port 8001
-# The backend will be available at: http://localhost:8001
+ source venv/bin/activate
 
 
-# Frontend Setup
+## Install Python dependencies:
 
-### Open a new terminal and navigate to frontend directory:
+ pip install fastapi uvicorn sqlalchemy psycopg2-binary python-multipart twilio
+ Set up PostgreSQL Database:
+ Start PostgreSQL service:
 
-### cd frontend
+### Start the Backend Server:
+
+ uvicorn main:app --reload --host 0.0.0.0 --port 8001
+ The backend will be available at: http://localhost:8001
+
+
+### Frontend Setup
+
+Open a new terminal and navigate to frontend directory:
+
+cd frontend
 
 ### Install dependencies:
 
  npm install
- Start the development server:
 
  npm run dev
- The frontend will be available at: http://localhost:5173
+
 
