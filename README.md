@@ -47,10 +47,15 @@
 ## Install Python dependencies:
 
  **fastapi** 
+
  **uvicorn** 
+
  **sqlalchemy** 
+
  **psycopg2-binary** 
+
  **python-multipart** 
+ 
  **twilio**
  
 ### Start the Backend Server:
@@ -60,9 +65,7 @@
 
 ### Frontend Setup
 
-Open a new terminal and navigate to frontend directory:
-
-cd frontend
+**Open a new terminal and navigate to frontend directory:** - cd frontend
 
 ### Install dependencies:
 
