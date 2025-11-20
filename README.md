@@ -37,29 +37,25 @@
 
 ### Backend Setup
 
- Navigate to backend directory:
+ **Navigate to backend directory:** - cd backend
 
- cd backend
- Create and activate virtual environment:
+ **Create virtual environment** - python3 -m venv venv
 
-**Create virtual environment**
- python3 -m venv venv
-
-**Activate virtual environment**
-
- source venv/bin/activate
+ **Activate virtual environment** - source venv/bin/activate
 
 
 ## Install Python dependencies:
 
- pip install fastapi uvicorn sqlalchemy psycopg2-binary python-multipart twilio
- Set up PostgreSQL Database:
- Start PostgreSQL service:
-
+ **fastapi** 
+ **uvicorn** 
+ **sqlalchemy** 
+ **psycopg2-binary** 
+ **python-multipart** 
+ **twilio**
+ 
 ### Start the Backend Server:
 
  uvicorn main:app --reload --host 0.0.0.0 --port 8001
- The backend will be available at: http://localhost:8001
 
 
 ### Frontend Setup
