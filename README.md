@@ -44,7 +44,7 @@
  **Activate virtual environment** - source venv/bin/activate
 
 
-## Install Python dependencies:
+### Install Python dependencies:
 
  **fastapi** 
 
@@ -55,7 +55,7 @@
  **psycopg2-binary** 
 
  **python-multipart** 
- 
+
  **twilio**
  
 ### Start the Backend Server:
