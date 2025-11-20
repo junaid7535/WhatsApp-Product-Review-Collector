@@ -1,4 +1,5 @@
 ### WhatsApp Product Reviews App
+
 # A full-stack application that allows users to submit product reviews via WhatsApp. The backend processes WhatsApp messages, stores reviews in PostgreSQL, and exposes a REST API consumed by a React frontend.
 
 
@@ -62,17 +63,17 @@
 # The backend will be available at: http://localhost:8001
 
 
-## Frontend Setup
+# Frontend Setup
 
-# Open a new terminal and navigate to frontend directory:
+### Open a new terminal and navigate to frontend directory:
 
-# cd frontend
+### cd frontend
 
-# Install dependencies:
+### Install dependencies:
 
-# npm install
-# Start the development server:
+ npm install
+ Start the development server:
 
-# npm run dev
-# The frontend will be available at: http://localhost:5173
+ npm run dev
+ The frontend will be available at: http://localhost:5173
 
